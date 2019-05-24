@@ -56,7 +56,7 @@ body {
 }
 
 .main_section {
-    background: url(/assets/your_verse_hero.jpg) 50% 100% no-repeat;
+    background: url(apple-webpage/assets/your_verse_hero.jpg) 50% 100% no-repeat;
     min-height: 586px;
     display: block;
     width: 100%;
@@ -114,7 +114,7 @@ body {
 }
 
 .navigation span {
-    background-image: url(/assets/globalnav_text.svg);    
+    background-image: url(apple-webpage/assets/globalnav_text.svg);    
     background-position: 50% -210px;
     display: block;
     width: 100%;
@@ -226,19 +226,19 @@ body {
 
 .promo_flex div:last-child {
     margin-right: 0;
-    background: url(/assets/promo_supplier_responsibility.jpg) 50% 100% no-repeat;
+    background: url(apple-webpage/assets/promo_supplier_responsibility.jpg) 50% 100% no-repeat;
 }
 
 .promo_flex div:nth-child(1) {
-    background: url(/assets/promo_iphone5s.jpg) 50% 100% no-repeat;
+    background: url(apple-webpage/assets/promo_iphone5s.jpg) 50% 100% no-repeat;
 }
 
 .promo_flex div:nth-child(2) {
-    background: url(/assets/promo_iphone5c.jpg) 50% 100% no-repeat;
+    background: url(apple-webpage/assets/promo_iphone5c.jpg) 50% 100% no-repeat;
 }
 
 .promo_flex div:nth-child(3) {
-    background: url(/assets/promo_30_years.jpg) 50% 100% no-repeat;
+    background: url(apple-webpage/assets/promo_30_years.jpg) 50% 100% no-repeat;
 }
 
 footer {
