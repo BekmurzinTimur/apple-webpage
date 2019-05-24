@@ -44,3 +44,246 @@ table {
 }
 
 /* End of CSS Reset*/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.body_wrapper {
+    margin: 0 auto;
+    max-width: 75%;
+    min-width: 1024px;
+}
+
+.main_section {
+    background: url(/assets/your_verse_hero.jpg) 50% 100% no-repeat;
+    min-height: 586px;
+    display: block;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    padding: 20px;
+}
+
+.navigation ul {
+    width: 980px;
+    margin: auto;
+    display: flex;
+}
+
+.navigation li {
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+    height: 36px;
+
+    background-color: gray;
+
+    background: linear-gradient(rgb(117, 117, 117) 0% 50%, rgb(90, 90, 90) 50%, rgb(107, 107, 107) 90%, gray);
+    border-right: 1px solid #363636;
+}
+
+.navigation li::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    pointer-events: none;
+    border-radius: 3px;
+}
+
+#input:hover::after { 
+    background: rgba(0, 0, 0, 0);
+}
+
+.navigation li:hover::after { 
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.navigation span {
+    background-image: url(/assets/globalnav_text.svg);    
+    background-position: 50% -210px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 3px auto;
+}
+
+#apple {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#apple span { background-position: 50% 0px; }
+
+#store span { background-position: 50% -30px; }
+
+#mac span { background-position: 50% -60px; }
+
+#ipod span { background-position: 50% -90px; }
+
+#iphone span { background-position: 50% -120px; }
+
+#ipad span { background-position: 50% -150px; }
+
+#itunes span { background-position: 50% -180px; }
+
+#support span { background-position: 50% -210px; }
+
+#input {
+    min-width: 132px;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    
+    border-right: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#input input { 
+    width: 100%;
+    margin: 7px 15px;
+    padding-left: 20px;
+
+    background: linear-gradient(rgb(117, 117, 117) 0% 50%, rgb(90, 90, 90) 50% 100%);
+    border-radius: 10px;
+}
+
+#input i {
+    position: absolute;
+    left: 18px;
+    top: 9px;
+
+    color: white;
+    font-size: 18px;
+}
+
+.your_verse {
+    margin: 100px auto 0;
+}
+
+.your_verse img {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+
+    text-align: center;
+    border: 0;
+}
+.film_link_wrapper {
+    margin-top: 30px;
+    overflow: hidden;
+    height: 32px;
+}
+
+.film_link {
+    display: block;
+    margin: 0px auto;
+    height: 32px;
+}
+
+.film_link:hover {
+    margin-top: -32px;
+}
+
+.film_link img {
+    height: 64px;
+}
+
+.promo_wrapper {
+    bottom: 90px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+.promo_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.promo_flex div {
+    margin-right: 2px;
+    width: 360px;
+    flex: 1;
+    height: 200px;
+}
+
+.promo_flex div:last-child {
+    margin-right: 0;
+    background: url(/assets/promo_supplier_responsibility.jpg) 50% 100% no-repeat;
+}
+
+.promo_flex div:nth-child(1) {
+    background: url(/assets/promo_iphone5s.jpg) 50% 100% no-repeat;
+}
+
+.promo_flex div:nth-child(2) {
+    background: url(/assets/promo_iphone5c.jpg) 50% 100% no-repeat;
+}
+
+.promo_flex div:nth-child(3) {
+    background: url(/assets/promo_30_years.jpg) 50% 100% no-repeat;
+}
+
+footer {
+    margin: 25px auto 0;
+    width: 980px;
+
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-row-gap: 10px;
+    align-items: center;
+    font-size: 10px;
+    color: rgb(105, 105, 105);
+}
+
+.shop , .copyright {
+    text-align: left;
+    float: left;
+}
+
+.copyright span {
+    border-left: 1px solid #cecece;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+footer a {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.contacts ul {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts li {
+    border-right: 1px solid #cecece;
+    padding: 0 5px;
+}
+
+.contacts li:last-child {
+    border-right: none;
+}
